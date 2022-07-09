@@ -5,6 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+*{
+    /* font-family: 'Pacifico', sans-serif; */
+}
 body,
 html{
     width: 100%;
@@ -22,6 +25,11 @@ html {
 }
 .pull-right {
     float: right ;
+}
+h1,
+h2{
+    color: aliceblue;;
+    font-weight: bold;
 }
 
 .container-final{
@@ -68,16 +76,14 @@ html {
 
 
 .text-heading{
-    font-size:  50px;;  
+    font-size:  45px;;  
     margin-top: 16px;;
-    font-family: 'Amatic SC',cursive;;
 
 }
 
 
 .text-description{
     font-size: 40px;
-    font-family: 'Amatic SC', cursive;
     margin-top: 16px;
         
 }
@@ -86,12 +92,10 @@ html {
 .text-final{
     font-size: 40px;
     margin-top: 16px;
-    font-family: 'Amatic SC', cursive;
         
         
 }
 .text--final-index1{
-    font-family:'Courier New', Courier, monospace;
     font-weight:700;
     color: #fff;
     margin-top: 30px;;
